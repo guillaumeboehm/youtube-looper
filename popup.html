@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="popup.css">
+    <link rel="stylesheet" href="double-slider.css">
+  </head>
+  <body>
+    <p id="storage-status"></p>
+    <div id="settings">
+      <span for="loop-checkbox">Loop video:</span>
+      <input id="loop-checkbox" type="checkbox"/>
+
+      <div class="slider-wrapper">
+        <input id="min-input" class="input-text" type="number"/>
+        <div class="min-max-slider" data-legendnum="2" display="flex">
+          <input id="min" class="min input-range" name="min" type="range" step="1" min="0" max="3000" />
+          <input id="max" class="max input-range" name="max" type="range" step="1" min="0" max="3000" />
+        </div>
+        <input id="max-input" class="input-text" type="number"/>
+      </div>
+
+      <div id="current-buttons">
+        <button id="set-min-button">Current time is beginning</button>
+        <button id="set-max-button">Current time is end</button>
+      </div>
+
+      <div id="volume-div">
+        <span for="volume-input">Video volume:</span>
+        <input id="volume-input" type="number" min="0" max="100" value="100"/>
+        <span for="volume-input">%</span>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <button id="save-settings">Save</button>
+    <script src="double-slider.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>

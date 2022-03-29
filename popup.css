@@ -1,0 +1,37 @@
+/* button { */
+/*   height: 30px; */
+/*   width: 30px; */
+/*   outline: none; */
+/*   margin: 10px; */
+/*   border: none; */
+/*   border-radius: 2px; */
+/* } */
+
+/* .current-buttons button { */
+/*   box-shadow: 0 0 0 2px white, */
+/*               0 0 0 4px black; */
+/* } */
+
+#storage-status {
+  font-size: 1.5em;
+}
+
+#loop-checkbox {
+  margin-top: 10px;
+}
+
+#volume-input {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 35px;
+}
+
+#current-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+#current-buttons button{
+}
+
+#save-settings {
+}
